@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.applause</groupId>
-	<artifactId>auto.sdk</artifactId>
+	<artifactId>auto.sdk.java</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>auto.sdk</name>
+	<name>auto.sdk.java</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<io.appium.version>6.0.0</io.appium.version>
@@ -32,17 +32,6 @@
 				<version>2.8.1</version>
 				<configuration>
 					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>${surefire.version}</version>
-				<configuration>
-					<suiteXmlFiles>
-						<suiteXmlFile>${suiteFile}</suiteXmlFile>
-					</suiteXmlFiles>
-					<trimStackTrace>false</trimStackTrace>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -78,14 +67,6 @@
 						<phase>deploy</phase>
 					</execution>
 				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<version>2.4</version>
-				<configuration>
-					<encoding>UTF-8</encoding>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
