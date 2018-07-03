@@ -12,6 +12,7 @@
 		<io.appium.version>6.0.0</io.appium.version>
 		<org.seleniumhq.selenium.version>3.12.0</org.seleniumhq.selenium.version>
 		<log4j.version>2.8.2</log4j.version>
+		<commons.io.version>2.5</commons.io.version>
 		<org.testng.version>6.14.2</org.testng.version>
 		<org.mokito.version>1.10.19</org.mokito.version>
 		<com.github.scribejava.version>5.3.0</com.github.scribejava.version>
@@ -100,6 +101,11 @@
 			<groupId>com.squareup.retrofit2</groupId>
 			<artifactId>converter-scalars</artifactId>
 			<version>${com.squareup.retrofit2.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons.io.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.squareup.retrofit2</groupId>
