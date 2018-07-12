@@ -76,7 +76,6 @@
 					<suiteXmlFiles>	
 						<suiteXmlFile>${suiteFile}</suiteXmlFile>	
 					</suiteXmlFiles>	
-					<trimStackTrace>false</trimStackTrace>	
 				</configuration>	
 			</plugin>
 		</plugins>
