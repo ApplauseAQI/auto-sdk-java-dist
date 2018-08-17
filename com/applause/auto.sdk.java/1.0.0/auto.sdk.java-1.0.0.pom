@@ -9,7 +9,7 @@
 	<name>auto.sdk.java</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<io.appium.version>6.0.0</io.appium.version>
+		<io.appium.version>6.1.0</io.appium.version>
 		<org.seleniumhq.selenium.version>3.12.0</org.seleniumhq.selenium.version>
 		<log4j.version>2.8.2</log4j.version>
 		<commons.io.version>2.5</commons.io.version>
