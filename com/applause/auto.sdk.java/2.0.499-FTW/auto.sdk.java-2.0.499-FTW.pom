@@ -1,64 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
-    <groupId>com.applause</groupId>
     <artifactId>auto-sdk-java-parent</artifactId>
-    <version>2.0.499-FTW</version>
+    <groupId>com.applause</groupId>
+    <version>${revision}</version>
   </parent>
-  <groupId>com.applause</groupId>
+  <modelVersion>4.0.0</modelVersion>
   <artifactId>auto.sdk.java</artifactId>
-  <version>2.0.499-FTW</version>
-  <properties>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <suiteFile>testng-unitTest.xml</suiteFile>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
-  <dependencies>
-    <dependency>
-      <groupId>com.applause</groupId>
-      <artifactId>auto-sdk-java-page-object</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.applause</groupId>
-      <artifactId>auto-sdk-java-integrations</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.applause</groupId>
-      <artifactId>auto-sdk-java-helpers</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.applause</groupId>
-      <artifactId>auto-sdk-java-rest-clients</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.applause</groupId>
-      <artifactId>auto-sdk-java-config</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.applause</groupId>
-      <artifactId>auto-sdk-java-common</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.applause</groupId>
-      <artifactId>auto-sdk-java-elements</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.applause</groupId>
-      <artifactId>auto-sdk-java-shared-resources</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-  </dependencies>
   <build>
     <resources>
       <resource>
@@ -69,7 +17,6 @@
         </includes>
       </resource>
       <resource>
-        <filtering>false</filtering>
         <directory>src/main/resources</directory>
         <excludes>
           <exclude>**/VERSION.txt</exclude>
@@ -93,6 +40,7 @@
             </goals>
             <configuration>
               <minimizeJar>true</minimizeJar>
+              <createDependencyReducedPom>true</createDependencyReducedPom>
             </configuration>
           </execution>
         </executions>
@@ -109,8 +57,8 @@
             </filter>
           </filters>
           <transformers>
-            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
-            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+            <transformer />
+            <transformer>
               <mainClass>serverside</mainClass>
             </transformer>
           </transformers>
@@ -167,4 +115,47 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.24.5</version>
+      <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>byte-buddy-agent</artifactId>
+          <groupId>net.bytebuddy</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>objenesis</artifactId>
+          <groupId>org.objenesis</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-inline</artifactId>
+      <version>2.24.5</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.spotbugs</groupId>
+      <artifactId>spotbugs-annotations</artifactId>
+      <version>3.1.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.jcip</groupId>
+      <artifactId>jcip-annotations</artifactId>
+      <version>1.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <properties>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <suiteFile>testng-unitTest.xml</suiteFile>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
 </project>

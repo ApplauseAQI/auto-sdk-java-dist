@@ -3,9 +3,11 @@
   <groupId>com.applause</groupId>
   <artifactId>auto.sdk.java</artifactId>
   <versioning>
+    <release>2.0.499-FTW</release>
     <versions>
       <version>2.0.499-SNAPSHOT</version>
+      <version>2.0.499-FTW</version>
     </versions>
-    <lastUpdated>20190313175341</lastUpdated>
+    <lastUpdated>20190313180838</lastUpdated>
   </versioning>
 </metadata>
