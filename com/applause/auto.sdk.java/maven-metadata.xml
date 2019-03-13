@@ -3,10 +3,10 @@
   <groupId>com.applause</groupId>
   <artifactId>auto.sdk.java</artifactId>
   <versioning>
-    <release>2.0.499-FML</release>
+    <release>2.0.499-OSS</release>
     <versions>
-      <version>2.0.499-FML</version>
+      <version>2.0.499-OSS</version>
     </versions>
-    <lastUpdated>20190313185646</lastUpdated>
+    <lastUpdated>20190313204011</lastUpdated>
   </versioning>
 </metadata>
