@@ -3,10 +3,10 @@
   <groupId>com.applause</groupId>
   <artifactId>auto-sdk-java-rest-clients</artifactId>
   <versioning>
-    <release>2.1.458</release>
+    <release>2.0.499-LOL</release>
     <versions>
-      <version>2.1.458</version>
+      <version>2.0.499-LOL</version>
     </versions>
-    <lastUpdated>20190315125534</lastUpdated>
+    <lastUpdated>20190315152907</lastUpdated>
   </versioning>
 </metadata>
