@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.applause</groupId>
+  <artifactId>auto-sdk-java-config</artifactId>
+  <version>2.1.479-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20190329.145211</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20190329145211</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.1.479-20190329.145211-1</value>
+        <updated>20190329145211</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.1.479-20190329.145211-1</value>
+        <updated>20190329145211</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
