@@ -3,10 +3,14 @@
   <groupId>com.applause</groupId>
   <artifactId>auto-sdk-java-shared-resources</artifactId>
   <versioning>
-    <release>2.1.479</release>
     <versions>
-      <version>2.1.479</version>
+      <version>2.1.464-SNAPSHOT</version>
+      <version>2.1.470-SNAPSHOT</version>
+      <version>2.1.474-SNAPSHOT</version>
+      <version>2.1.476-SNAPSHOT</version>
+      <version>2.1.478-SNAPSHOT</version>
+      <version>2.1.479-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190329041838</lastUpdated>
+    <lastUpdated>20190329145933</lastUpdated>
   </versioning>
 </metadata>
