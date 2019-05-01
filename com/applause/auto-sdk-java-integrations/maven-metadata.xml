@@ -3,10 +3,10 @@
   <groupId>com.applause</groupId>
   <artifactId>auto-sdk-java-integrations</artifactId>
   <versioning>
-    <release>2.1.583</release>
+    <release>2.0.999-SNAPSHOT-javadoctest</release>
     <versions>
-      <version>2.1.583</version>
+      <version>2.0.999-SNAPSHOT-javadoctest</version>
     </versions>
-    <lastUpdated>20190501173220</lastUpdated>
+    <lastUpdated>20190501180643</lastUpdated>
   </versioning>
 </metadata>
