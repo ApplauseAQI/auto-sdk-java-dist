@@ -3,12 +3,13 @@
   <groupId>com.applause</groupId>
   <artifactId>auto-sdk-java-parent</artifactId>
   <versioning>
-    <release>2.1.8675309-BROKEN</release>
+    <release>2.1.8675309-NOHEARTBEAT</release>
     <versions>
       <version>2.1.8675309</version>
       <version>2.1.8675309-NOCOMPILE</version>
       <version>2.1.8675309-BROKEN</version>
+      <version>2.1.8675309-NOHEARTBEAT</version>
     </versions>
-    <lastUpdated>20190610203501</lastUpdated>
+    <lastUpdated>20190611141221</lastUpdated>
   </versioning>
 </metadata>
