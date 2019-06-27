@@ -3,10 +3,9 @@
   <groupId>com.applause</groupId>
   <artifactId>auto-sdk-java-config</artifactId>
   <versioning>
-    <release>2.1.665</release>
     <versions>
-      <version>2.1.665</version>
+      <version>2.1.662-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190627152714</lastUpdated>
+    <lastUpdated>20190627184252</lastUpdated>
   </versioning>
 </metadata>
