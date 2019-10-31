@@ -3,10 +3,10 @@
   <groupId>com.applause</groupId>
   <artifactId>auto-sdk-java-elements</artifactId>
   <versioning>
-    <release>2.1.738</release>
+    <release>2.1.999-NESTEDCAPSTEST</release>
     <versions>
-      <version>2.1.738</version>
+      <version>2.1.999-NESTEDCAPSTEST</version>
     </versions>
-    <lastUpdated>20191031151129</lastUpdated>
+    <lastUpdated>20191031201304</lastUpdated>
   </versioning>
 </metadata>
