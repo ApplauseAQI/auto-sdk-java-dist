@@ -42,13 +42,14 @@ It took me hours to get this all working together.... change at your peril
   <properties>
     <com.squareup.retrofit2.version>2.5.0</com.squareup.retrofit2.version>
     <org.seleniumhq.selenium.version>3.141.59</org.seleniumhq.selenium.version>
+    <changelist>-AUT-4777</changelist>
     <commons-beanutils.version>1.9.3</commons-beanutils.version>
     <javax.mail.version>1.6.2</javax.mail.version>
     <org.mokito.version>2.24.5</org.mokito.version>
     <com.squareup.okhttp.version>3.12.0</com.squareup.okhttp.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <io.appium.version>7.0.0</io.appium.version>
-    <revision>2.1.999-AUT-4777</revision>
+    <revision>2.1.999</revision>
     <commons.io.version>2.6</commons.io.version>
     <org.reflections.version>0.9.11</org.reflections.version>
     <net.jodah.failsafe.version>1.1.1</net.jodah.failsafe.version>
