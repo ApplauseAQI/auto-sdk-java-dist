@@ -42,7 +42,6 @@ It took me hours to get this all working together.... change at your peril
   <properties>
     <com.squareup.retrofit2.version>2.5.0</com.squareup.retrofit2.version>
     <org.seleniumhq.selenium.version>3.141.59</org.seleniumhq.selenium.version>
-    <changelist>-SNAPSHOT</changelist>
     <commons-beanutils.version>1.9.3</commons-beanutils.version>
     <javax.mail.version>1.6.2</javax.mail.version>
     <org.mokito.version>2.24.5</org.mokito.version>
