@@ -3,10 +3,10 @@
   <groupId>com.applause</groupId>
   <artifactId>auto-sdk-java-parent</artifactId>
   <versioning>
-    <release>2.1.1052</release>
+    <release>2.1.1055</release>
     <versions>
-      <version>2.1.1052</version>
+      <version>2.1.1055</version>
     </versions>
-    <lastUpdated>20200925203020</lastUpdated>
+    <lastUpdated>20200925205305</lastUpdated>
   </versioning>
 </metadata>
