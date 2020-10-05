@@ -2,29 +2,29 @@
 <metadata modelVersion="1.1.0">
   <groupId>com.applause</groupId>
   <artifactId>auto-sdk-java-config</artifactId>
-  <version>3.0.0-SNAPSHOT</version>
+  <version>3.0.2-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20201005.194306</timestamp>
+      <timestamp>20201005.203350</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20201005194306</lastUpdated>
+    <lastUpdated>20201005203350</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>3.0.0-20201005.194306-1</value>
-        <updated>20201005194306</updated>
+        <value>3.0.2-20201005.203350-1</value>
+        <updated>20201005203350</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>3.0.0-20201005.194306-1</value>
-        <updated>20201005194306</updated>
+        <value>3.0.2-20201005.203350-1</value>
+        <updated>20201005203350</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>3.0.0-20201005.194306-1</value>
-        <updated>20201005194306</updated>
+        <value>3.0.2-20201005.203350-1</value>
+        <updated>20201005203350</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
